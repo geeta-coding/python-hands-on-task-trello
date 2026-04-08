@@ -18,6 +18,7 @@ print (msg)
 # without using external libraries
 name = "Geeta"
 
-print(f"{name:*<30}")  # Left
+print(f"{name:*
+         <30}")  # Left
 print(f"{name:*>10}")  # Right
 print(f"{name:*^50}")  # Center
