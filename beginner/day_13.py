@@ -58,13 +58,7 @@ print(answer)
 # Compare lambda vs regular function — when to use which
 
 #=========================================================================================================
-# lambda function is very easy to write but some cases it is a complex for rading insted of that
-# the regular function is more effective beacuse it is easy to read and also it is simple structure 
-
-# lambda is also known as a anonyms function no need to wrie a function name in this function it is used for 
-# one line arguments and it is only use for short purpose 
-
-# instead of that a regular function is better for the logic 
+# 
 
 # ================================================================================================================
 
