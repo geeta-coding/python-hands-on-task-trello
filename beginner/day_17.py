@@ -200,3 +200,8 @@ print("Original List:", arr)
 sorted_arr = quick_sort(arr)
 
 print("Sorted List:", sorted_arr)
+
+print("\n sorting using prefefined sorted() in python .....")
+arr = [12,5,2,90,1,76,45,67]
+
+print(sorted(arr))
