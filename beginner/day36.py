@@ -61,18 +61,47 @@ for index, food in enumerate(foods, start=1):
     print(index, food)
 
 # Use sorted() with key and reverse
+students = [
+    ("Geeta", 90),
+    ("Ravi", 78),
+    ("Yash", 20),
+    ("Achal", 19),
+    ("Gauri", 89),
+    ("Balu", 90)
+]
 
+print(sorted(students))
+employees = [
+    {"name":"John","salary":50000},
+    {"name":"Amy","salary":80000},
+    {"name":"Bob","salary":60000},
+]
+# print(type(employees))
+
+highest = sorted(
+    employees,
+    key=lambda emp: emp["salary"],
+    reverse=True
+)
+
+print(highest)
 
 # Use min()/max() with key parameter
+print(min(student))
+print(max(student))
 
 
 # Use sum() with generator expression
-
+number = [12,23,3,4]
+total = sum(n*n for n in number)
+print(total)
 
 # Use isinstance() and type() properly
+print(isinstance(number,int))
+print(type(number))
 
 
 # Use id() to check object identity
+print(id(number))
 
 
-# Use hash() and understand hashable types
