@@ -26,7 +26,7 @@ print(student)
 
 # student.insert(1,54)
 print(student)
-student.append(["ram","ekta"])
+student.append(["ram","ekta"]) # type: ignore
 print(student)
 
 # Use remove(), pop(), del to delete items
