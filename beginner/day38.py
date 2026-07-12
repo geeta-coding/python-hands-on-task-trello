@@ -77,9 +77,9 @@ try:
     age = 12
 
     if age < 18:
-        raise InvalidAgeError(age)
+        raise ValueError(age)
 
-except InvalidAgeError as e:
+except ValueError as e:
 
     print(e)
     print(e.age)
